@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "pages/dashboard/newUser.js", "pages/dashboard/dashboard.js", "pages/dashboard/profile.js", "pages/dashboard/manageUser.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
+
